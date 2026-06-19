@@ -1,5 +1,6 @@
-.DS_Store
-node_modules/
 *.vsix
+node_modules/
+.DS_Store
+.history/
 npx
 mountain-fork-color-theme@*
