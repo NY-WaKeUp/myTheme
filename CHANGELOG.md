@@ -4,5 +4,5 @@ All notable changes to this project will be documented in this file.
 
 ## 0.0.1
 
-- Initial release of `Mountain - Fork` color theme.
+- Initial release of `myTheme` color theme.
 - Added theme contribution and packaging metadata for VS Code/Cursor.

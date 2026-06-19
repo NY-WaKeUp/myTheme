@@ -1,7 +1,7 @@
 {
-  "name": "mountain-fork-color-theme",
-  "displayName": "Mountain Fork Color Theme",
-  "description": "Mountain - Fork dark color theme for VS Code and Cursor.",
+  "name": "myTheme",
+  "displayName": "myTheme",
+  "description": "myTheme dark color theme for VS Code and Cursor.",
   "version": "0.0.1",
   "private": false,
   "publisher": "ningyu",
@@ -20,7 +20,7 @@
     "theme",
     "color-theme",
     "dark-theme",
-    "mountain"
+    "myTheme"
   ],
   "scripts": {
     "package": "npx @vscode/vsce package --allow-missing-repository"
@@ -28,9 +28,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Mountain - Fork",
+        "label": "myTheme",
         "uiTheme": "vs-dark",
-        "path": "./themes/mountain-fork-color-theme.json"
+        "path": "./themes/myTheme.json"
       }
     ]
   }
