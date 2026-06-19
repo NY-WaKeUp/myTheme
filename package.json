@@ -1,0 +1,37 @@
+{
+  "name": "mountain-fork-color-theme",
+  "displayName": "Mountain Fork Color Theme",
+  "description": "Mountain - Fork dark color theme for VS Code and Cursor.",
+  "version": "0.0.1",
+  "private": false,
+  "publisher": "ningyu",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "galleryBanner": {
+    "color": "#0f0f0f",
+    "theme": "dark"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "mountain"
+  ],
+  "scripts": {
+    "package": "npx @vscode/vsce package --allow-missing-repository"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mountain - Fork",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mountain-fork-color-theme.json"
+      }
+    ]
+  }
+}
