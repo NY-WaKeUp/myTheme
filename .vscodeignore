@@ -1,7 +1,12 @@
 .vscode/**
 .git/**
 .gitignore
+.history/**
+docs/**
 **/*.vsix
 **/*.log
 **/*.tmp
 **/.DS_Store
+npx
+*@*
+mountain-fork*
